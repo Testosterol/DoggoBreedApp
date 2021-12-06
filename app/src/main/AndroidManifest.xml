@@ -5,10 +5,12 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
+        android:name=".core.BreedsApplication"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Dog Breeds"
+        android:hardwareAccelerated="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true">
         <activity
@@ -20,8 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".breeds.BreedPicturesActivity" />
-        <activity android:name=".favorites.FavoritesActivity" />
+        <activity android:name=".breeds.BreedPicturesActivity"
+            android:configChanges="screenSize|orientation|screenLayout|navigation"/>
+        <activity android:name=".favorites.FavoritesActivity"
+            android:configChanges="screenSize|orientation|screenLayout|navigation"/>
     </application>
 
 </manifest>
