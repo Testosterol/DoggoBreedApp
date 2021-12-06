@@ -43,9 +43,10 @@ Some basic information about functionality of an app:
 * UI being fully update from LiveData 
 * Considered using Retrofit for API to the server but decided that Volley library was a simple choice to go
 * App has 3 screens as required from the assignment - (MainActivity - list of dog breeds , BreedPictursActivity - list of specific breed pictures , FavoritesActivity - list of favorite pictures)
-* App might look overcomplicated but it would be also easier to scale the app from current solution e.g. using BoundaryCallback when scroling to the end of the list
-* Some functionalities could have been done much better but given the limited time horizon, I tried to get it done without too much thinking (as in Hammer to Nail strategy)
+* Code might look overcomplicated but it would be also easier to scale the app from current solution e.g. using BoundaryCallback when scroling to the end of the list
 * UI is very simplistic as it was recommended
+* Some functionalities could have been done much better but given the limited time horizon, I tried to get it done without too much thinking (as in Hammer to Nail strategy)
+* I have added few tests and only few DI modules since there was a time limitation and I got stuck with some unexpected 3rd party screen orientate cache error.
 
 * Please comment on anything that could have been done better, any ideas, advices and so on, as it is important part of growing and learning. Thank you !
 
